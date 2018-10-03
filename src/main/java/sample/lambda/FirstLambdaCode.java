@@ -15,6 +15,9 @@ public class FirstLambdaCode {
         gr.greet(sujiGreeting);
         gr.greet(manjuGreeting);
 
+        Greeting myGreetingLambda = () -> System.out.println("Hello World");
+
+        myGreetingLambda.perform();
     }
 
 }
